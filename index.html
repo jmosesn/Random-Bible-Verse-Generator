@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Random Bible Verse Generator</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/hnet.com-image.ico" alt="cavode-logo">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Content Box -->
+
+  <div class="verse-box">
+
+  <!-- Title -->
+
+    <div class="header">
+      <h1>Random Bible Verse</h1>
+    </div>
+
+  <!-- Random Scripture & Quotations-->
+
+    <div class="verse-text">
+      <span><i class="quote-icon-right fas fa-solid fa-quote-left"></i><span id="text">Loading...</span><i class="quote-icon-left fas fa-solid fa-quote-right"></i></span>
+    </div>
+
+  <!-- Random Book Chapter Verse -->
+
+    <div class="book-chapter-verse"></div>
+
+  <!-- Buttons -->
+
+    <button class="verse-button btn btn-dark" id="new-verse" type="button">Generate</button>
+
+    <div class="social-buttons">
+
+      <a class="twitter-button" title="Tweet this scripture!" href="https://twitter.com/"><i class="social-icon fa-lg fa-brands fa-twitter-square"></i></a>
+      <a class="facebook-button" title="Share scripture on fb-Meta!" href="https://facebook.com/"><i class="social-icon fa-lg fa-brands fa-facebook-square"></i></a>
+      <a class="instagram-button" title="Post on the gram!" href="https://instagram.com/"><i class="social-icon fa-lg fa-brands fa-instagram-square"></i></a>
+
+    </div>
+
+  </div>
+
+<!-- Footer -->
+
+  <div class="footer">
+    <p class="copyright">© <a class="cavode-link" title="Check out my portfolio!" href="https://jmosesn.github.io/My-Portfolio/">Cavode</a></p>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

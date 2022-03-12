@@ -1,0 +1,94 @@
+body {
+  background-color: #9D84B7;
+  font-family:'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* Content Box */
+
+.verse-box {
+  box-shadow: 2px 4px 8px #4A403A;
+  border-radius: 4px;
+  margin:100px auto auto;
+  width: 500px;
+  padding: 50px 50px;
+  background-color: white;
+}
+
+/* Quotations */
+
+.quote-icon-right {
+  color: #9D84B7;
+  margin-right: 9px;
+}
+
+.quote-icon-left {
+  color: #9D84B7;
+  margin-left: 3px;
+}
+
+/* Random Scripture */
+
+.verse-text {
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+
+#text {
+  font-weight: bold;
+}
+
+.book-chapter-verse {
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+
+.verse-button {
+  background-color: #9D84B7;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.verse-button:hover {
+  background-color: #5c4d6b;
+}
+
+.btn {
+  border: 0;
+}
+
+.social-icon {
+  color: #9D84B7;
+  margin: 0 2px;
+}
+
+.social-icon:hover {
+  color: #5c4d6b;
+}
+
+/* Footer */
+
+.footer {
+  color: white;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.copyright {
+  padding-top: 10px;
+}
+
+.cavode-link {
+  color: white;
+}
+
+.cavode-link:hover {
+  color: black;
+}
